@@ -1,10 +1,10 @@
 Stuff
 =====
 Git for Windows (prev. mysysgit)
-https://git-for-windows.github.io/
+https://git-for-windows.github.io/  (this is what Brent uses)
 
 GitHub for Desktop
-https://desktop.github.com/
+https://desktop.github.com/  (this is what Ben and Pam use)
 
 Git Extensions
 https://gitextensions.github.io/
@@ -26,7 +26,7 @@ Michael Schwern
 Explaining git with tinker toys
 https://www.youtube.com/watch?v=1ffBJ4sVUb4
 
-Seven Bridges of Königsberg and Graph Theory
+Seven Bridges of KÃ¶nigsberg and Graph Theory
 Sam Livingston-Gray
 http://think-like-a-git.net/
 
