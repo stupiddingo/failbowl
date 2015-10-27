@@ -1,5 +1,7 @@
-Stuff
-=====
+
+
+Tools
+------
 Git for Windows (prev. mysysgit)
 https://git-for-windows.github.io/  (this is what Brent uses)
 
@@ -9,11 +11,10 @@ https://desktop.github.com/  (this is what Ben and Pam use)
 Git Extensions
 https://gitextensions.github.io/
 
-GitHub
-https://github.com/
+
 
 Resources
-
+--------
 Try Git 
 (Light red text is not native git, but the tutorial, if you do same changes locally it might make more sense)
 https://try.github.io 
@@ -42,3 +43,7 @@ http://blog.ted.com/further-reading-in-github/
 Open Source World
 NPR Ted Radio Hour
 http://www.npr.org/programs/ted-radio-hour/449179937/open-source-world
+
+IdahoFishGame GitHub Repos
+--------
+https://github.com/idahofishgame
