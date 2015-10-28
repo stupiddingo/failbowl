@@ -11,8 +11,8 @@ Commands Demonstrated
 - `git log`
   - `git log --decorate --graph` Add the lines connecting branches
   - `git log --oneline --graph --all --decorate` This matches the subway lines in GUI
-  - `git diff` Show changes to the repo line by line
-    - `git diff <folder/path/or/file>` Show only subpath or specific file diff
+- `git diff` Show changes to the repo line by line
+  - `git diff <folder/path/or/file>` Show only subpath or specific file diff
 
 **Remotes**
 - `git remote add <http or ssh address>` Add a remote
