@@ -1,6 +1,6 @@
 Commands Demonstrated
 ----------
-*Adding and Commiting*
+**Adding and Commiting**
 - `git status` What is going on?
 - `git init` Initialize a new repo
 - `git add <filename>` Add changed files to staging
@@ -14,24 +14,24 @@ Commands Demonstrated
   - `git diff` Show changes to the repo line by line
     - `git diff <folder/path/or/file>` Show only subpath or specific file diff
 
-*Remotes*
+**Remotes**
 - `git remote add <http or ssh address>` Add a remote
   - `git remote -v` Display possible remotes 
 - `git push` Push local changes to remote
 - `git pull` Pull down remote changes to local
 - `git clone <http or ssh address>` Clone down a complete remote repo to local
 
-*Branching*
+**Branching**
 - `git branch <mybranch>` Create a branch named mybranch
   - `git branch <mybranch> <commit>` Create a new branch from specific commit or tag
 - `git checkout <mybranch>` Switch working branch to mybranch
 - `git merge <mybranch>` Merge the contents of mybranch into your current branch (master perhaps)
 
-*Management*
+**Management**
 - `git tag <tagname>` Lightweight human readable label for a commit
   - `git tag <tagname> <commit>` Add a tag on a specific past commit 
 
-*_Mentioned but not demonstrated_*
+**_Mentioned but not demonstrated_**
 - `git checkout -b <mybranch>` Branch and checkout in one go.
 - `git cherrypick <commit>` Adds a specific commit from one branch to working branch
 - `git revert <commit>` Removes a specific commit
