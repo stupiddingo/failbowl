@@ -15,29 +15,33 @@ Commands Demonstrated
   - `git diff <folder/path/or/file>` Show only subpath or specific file diff
 
 **Remotes**
-- `git remote add <http or ssh address>` Add a remote
+- `git remote add origin <http or ssh address>` Add a remote
   - `git remote -v` Display possible remotes 
-- `git push` Push local changes to remote
+- `git push origin master` Push local changes to remote
+  - `git push` Shorthand after repo configured 
 - `git pull` Pull down remote changes to local
 - `git clone <http or ssh address>` Clone down a complete remote repo to local
 
 **Branching**
 - `git branch <mybranch>` Create a branch named mybranch
   - `git branch <mybranch> <commit>` Create a new branch from specific commit or tag
+  - `git branch -a` Show all branches
 - `git checkout <mybranch>` Switch working branch to mybranch
 - `git merge <mybranch>` Merge the contents of mybranch into your current branch (master perhaps)
 
 **Management**
 - `git tag <tagname>` Lightweight human readable label for a commit
-  - `git tag <tagname> <commit>` Add a tag on a specific past commit 
+  - `git tag <tagname> <commit>` Add a tag on a specific past commit
+  - `git tag` List existing tags
 
 **_Mentioned but not demonstrated_**
 - `git checkout -b <mybranch>` Branch and checkout in one go.
 - `git cherrypick <commit>` Adds a specific commit from one branch to working branch
-- `git revert <commit>` Removes a specific commit
-- `git reset` Resets a file to a past state, use with care
+- `git commit --amend -m "New Message"` Add more to most recent commit and update message
+- `git reset` Resets a file to a past state, weirdness here look up docs before using
   - `git reset --hard <commit>` Reset local to previous commit (accepts commit id, tag or HEAD^^ where each caret is minus one commit.)
-- `.gitignore` Not a command but a file in any folder that lists files to ignore from repo.
+- `git revert <commit>` Removes a specific commit 
+- `.gitignore` Not a command but a file in any folder that lists files to ignore from repo
 
 
 Resources
